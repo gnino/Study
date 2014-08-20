@@ -1,6 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include <cstring>
+using namespace std;
 
 void tabela ();                                               \\gerar uma tabela vazia de 10x6
 int main(){
