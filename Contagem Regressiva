@@ -8,7 +8,7 @@
     if (i==0)
     {
     cout<<"Contagem regressiva parada";
-    break;
+    break;                               \\sai do loop
     }
    }
   }
