@@ -1,5 +1,6 @@
  #include <iostream.h>
  #include <stdio.h>
+ using namespace std;
  int main (void)
  {
  float num1
@@ -7,38 +8,38 @@
 char oper;                                \\Operação aplicada as duas variáveis
 do
  {
-printf("Calculadora. Operações disponíveis: +, -, *, /, %. Para sair da calculadora imprima 0 três vezes");
-printf("\nDigite o num1, a operação a ser realizada e o num2");
-scanf("%f", &num1);
-scanf(" %c", &oper);
-scanf("%f", &num2);
+cout<<"Calculadora. Operações disponíveis: +, -, *, /, %. Para sair da calculadora imprima 0 três vezes";
+cout<<"\nDigite o num1, a operação a ser realizada e o num2";
+cin>>"%f", &num1;
+cin>>" %c", &oper;
+cin>>"%f", &num2;
 system("cls||clear");
-printf("%.2f %c %.2f =" num1, oper, num2);
+cout<<"%.2f %c %.2f =" num1, oper, num2);
 switch(oper)
   {
 case '+':
-     printf("%.2f %c %.2f", num1 + num2);
+     cout<<"%.2f %c %.2f", num1 + num2;
      break;
 case '-':
-     prinf("%.2f %c %.2f", num1 - num2);
+     cout<<"%.2f %c %.2f", num1 - num2;
      break;
 case '*':
-     printf("%.2f %c %.2f", num * num2);
+     cout<<"%.2f %c %.2f", num * num2;
      break;
 case '/':
   if num2 !=0)
-     prinf("%.2f %c %.2f", num1 / num2);
+      cout<<"%.2f %c %.2f", num1 / num2;
   else
-     printf("Não existe divisão por 0\n");
+      cout<<"Não existe divisão por 0\n";
   break;
 case '%':
-     prinf("%d", (int)num1 % (int)num2);
+     cout<<"%d", (int)num1 % (int)num2;
      break;
 default:                                 \\Função que será chamada se os requesitos anteriores não forem devidamente executados
    if(num1!=0 && oper!='0' && num2!=0)
-    printf("\nOperador inválido")
+     cout<<"\nOperador inválido";
    else
-    printf("\nExit")
+     cout<<"\nExit";
    }
  }
 }
