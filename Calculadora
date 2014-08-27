@@ -3,40 +3,40 @@
  using namespace std;
  int main (void)
  {
- float num1
-       num2
+ float num1;
+       num2;
+       result;
 char oper;                                \\Operação aplicada as duas variáveis
 do
  {
 cout<<"Calculadora. Operações disponíveis: +, -, *, /, %. Para sair da calculadora imprima 0 três vezes";
 cout<<"\nDigite o num1, a operação a ser realizada e o num2";
-cin>>"%f", &num1;
-cin>>" %c", &oper;
-cin>>"%f", &num2;
-system("cls||clear");
-cout<<"%.2f %c %.2f =" num1, oper, num2);
+cin>>num1;
+cin>>oper;
+cin>>num2;
+cout<< = num1, oper, num2,"=";
 switch(oper)
   {
 case '+':
-     cout<<"%.2f %c %.2f", num1 + num2;
+     cout<< num1 + num2;
      break;
 case '-':
-     cout<<"%.2f %c %.2f", num1 - num2;
+     cout<< num1 - num2;
      break;
 case '*':
-     cout<<"%.2f %c %.2f", num * num2;
+     cout<< num * num2;
      break;
 case '/':
   if num2 !=0)
-      cout<<"%.2f %c %.2f", num1 / num2;
+      cout<< num1 / num2;
   else
       cout<<"Não existe divisão por 0\n";
   break;
 case '%':
-     cout<<"%d", (int)num1 % (int)num2;
+     cout<<(int)num1 % (int)num2;
      break;
 default:                                 \\Função que será chamada se os requesitos anteriores não forem devidamente executados
-   if(num1!=0 && oper!='0' && num2!=0)
+   if(num1!=0; oper!='0'; num2!=0)
      cout<<"\nOperador inválido";
    else
      cout<<"\nExit";
