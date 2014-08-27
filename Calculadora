@@ -7,7 +7,7 @@
 char oper;                                \\Operação aplicada as duas variáveis
 do
  {
-printf("Calculadora. Operações disponíveis: +, -, *, /, %");
+printf("Calculadora. Operações disponíveis: +, -, *, /, %. Para sair da calculadora imprima 0 três vezes");
 printf("\nDigite o num1, a operação a ser realizada e o num2");
 scanf("%f", &num1);
 scanf(" %c", &oper);
@@ -34,6 +34,11 @@ case '/':
 case '%':
      prinf("%d", (int)num1 % (int)num2);
      break;
-  }
+default:                                 \\Função que será chamada se os requesitos anteriores não forem devidamente executados
+   if(num1!=0 && oper!='0' && num2!=0)
+    printf("\nOperador inválido")
+   else
+    printf("\nExit")
+   }
  }
 }
