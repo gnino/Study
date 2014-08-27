@@ -36,5 +36,20 @@ for(i=0;i<=2;i++){
 	}
    cout<<"\n";
 }
+cout<<"\n\nA+B\n\n";
+for(i=0;i<=2;i++){
+    for(j=0;j<=2;j++){
+	cout<<A[i][j]+B[i][j]<<" ";
+	}
+   cout<<"\n";
+}
+cout<<"\n\nTransposta de A mais Transposta de B=\n\n";
+for(i=0;i<=2;i++){
+    for(j=0;j<=2;j++){
+	cout<<A[j][i]+B[j][i]<<" ";
+	}
+   cout<<"\n";
+}
+
 return 0;
 }
