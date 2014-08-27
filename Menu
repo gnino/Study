@@ -1,0 +1,28 @@
+#include <iostream.h>
+#include <cstdlib>
+#include <stdio.h>
+using namespace std;
+int main(int argc, char*argu[])
+{
+int Escolha;
+while(true){
+    printf("Menu:\n 1->Vermelho\n 2->Azul\n 3->Verde\n 4->Sair\n\nEscolha uma opção:");
+    scanf("%d", &Escolha);
+    switch (Escolha){
+      case1:
+        printf("O usuário escolheu Vermelho\n");
+        break;
+      case2:
+        printf("O usuário escolheu Azul\n");
+        break;
+      case3:
+        printf("O usuário escolheu Verde\n");
+        break;
+      case4:
+        exit(0);
+        break;
+        }
+  }
+system("PAUSE");
+return EXIT_SUCCESS;
+}
