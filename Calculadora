@@ -1,45 +1,45 @@
- #include <iostream.h>
- #include <stdio.h>
- using namespace std;
- int main (void)
- {
- float num1;
-       num2;
-       result;
-char oper;                                \\Operação aplicada as duas variáveis
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main (void)
+{
+float num1,num2,result;
+char oper; 
 do
- {
+{
 cout<<"Calculadora. Operações disponíveis: +, -, *, /, %. Para sair da calculadora imprima 0 três vezes";
-cout<<"\nDigite o num1, a operação a ser realizada e o num2";
+cout<<"\nDigite o num1, a operação a ser realizada e o num2=\n";
 cin>>num1;
 cin>>oper;
 cin>>num2;
-cout<< = num1, oper, num2,"=";
+cout<<  num1<< oper<< num2<<"=";
 switch(oper)
-  {
+{
 case '+':
-     cout<< num1 + num2;
-     break;
+cout<< num1 + num2<<"\n";
+break;
 case '-':
-     cout<< num1 - num2;
-     break;
+cout<< num1 - num2<<"\n";
+break;
 case '*':
-     cout<< num * num2;
-     break;
+cout<< num1* num2<<"\n";
+break;
 case '/':
-  if num2 !=0)
-      cout<< num1 / num2;
-  else
-      cout<<"Não existe divisão por 0\n";
-  break;
+if (num2 !=0)
+cout<< num1 / num2<<"\n";
+else
+cout<<"\nNão existe divisão por 0\n";
+break;
 case '%':
-     cout<<(int)num1 % (int)num2;
-     break;
-default:                                 \\Função que será chamada se os requesitos anteriores não forem devidamente executados
-   if(num1!=0; oper!='0'; num2!=0)
-     cout<<"\nOperador inválido";
-   else
-     cout<<"\nExit";
-   }
- }
+cout<<(int)num1 % (int)num2<<"\n";
+break;
+default: 
+if(num1!=0, oper!='0', num2!=0)
+cout<<"\nOperador inválido";
+else
+cout<<"\nFechando calculadora";
 }
+}
+while(num1 != 0, oper != '0', num2 != 0);
+}
+
