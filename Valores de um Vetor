@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int foo[5] = {10, 20, 30, 40, 50} \\A funcao foo determina vetores
+int foo[5] = {10, 20, 30, 40, 50} //A funcao foo determina vetores
 int n, result=0;
 int main ()
 {
