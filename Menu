@@ -11,20 +11,18 @@ cout<<"Menu:\n 1->Vermelho\n 2->Azul\n 3->Verde\n 4->Sair\n\nEscolha uma opção
 cin>>Escolha;
 switch (Escolha){
 case 1:
-cout<<"O usuário escolheu Vermelho\n";
+cout<<"\nO usuário escolheu Vermelho\n\n";
 break;
 case 2:
-cout<<"O usuário escolheu Azul\n";
+cout<<"\nO usuário escolheu Azul\n\n";
 break;
 case 3:
-cout<<"O usuário escolheu Verde\n";
+cout<<"\nO usuário escolheu Verde\n\n";
 break;
 case 4:
 exit(0);
 break;
 }
-
 }
-
 return 0;
 }
