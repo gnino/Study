@@ -1,0 +1,15 @@
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main()
+{
+    int num;
+
+    cout<<"Digite um numero: ";
+    cin>>num;
+
+    if( num%2 == 0 )
+        cout<<"Numero par\n"<<num<<"\n";
+    else
+       cout<<"Numero impar\n"<<num<<"\n";
+}
