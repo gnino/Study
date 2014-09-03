@@ -9,7 +9,7 @@ int main()
     cin>>num;
 
     if( num%2 == 0 )
-        cout<<"Numero par\n"<<num<<"\n";
+        cout<<num<<" e um numero par\n"<<"\n";
     else
-       cout<<"Numero impar\n"<<num<<"\n";
+       cout<<num<<" e um numero impar\n"<<"\n";
 }
