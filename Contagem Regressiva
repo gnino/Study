@@ -8,9 +8,9 @@ int main ()
   cout<<"Digite um numero para iniciar a contagem regressiva=\n";
   cin>>n;
   while (n>0){
-    cout << n << ", ";
-    --n;
-  }
+    cout << n-1 << ", ";
+    break;
+    }
   cout<<"\n\nFim da contagem regressiva";
   return 0;
 }
