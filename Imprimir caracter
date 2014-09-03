@@ -1,8 +1,9 @@
 #include <stdio.h>
-main()
+using namespace std;
+int main()
 {
 char ch;
-printf("Iprima um caracter:");
+cout<<"Iprima um caracter:\n";
 ch=getchar();
 putchar(ch);
 }
