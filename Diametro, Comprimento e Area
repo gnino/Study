@@ -1,0 +1,23 @@
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main()
+{
+    float raio,
+          pi = 3.14,
+          diametro,
+          comprimento,
+          area;
+
+    cout<<"\nDigite o raio: ";
+    cin>>raio;
+
+    diametro = 2 * raio;
+    comprimento = 2 * pi * raio;
+    area = (raio * raio) * pi;
+
+    cout<<"\nDiametro\n"<<diametro<<"\n";
+    cout<<"\nComprimento\n"<<comprimento<<"\n";
+    cout<<"\nArea\n"<<area<<"\n\n";
+    return 0;
+}
