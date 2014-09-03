@@ -1,16 +1,14 @@
 #include <iostream>
-
 using namespace std;
-
 int main ()
 {
-  int n;
-  cout<<"Digite um numero para iniciar a contagem regressiva=\n";
-  cin>>n;
-  while (n>0){
-    cout << n-1 << ", ";
-    break;
-    }
-  cout<<"\n\nFim da contagem regressiva";
-  return 0;
+int n;
+cout<<"Digite um numero para iniciar a contagem regressiva=\n";
+cin>>n;
+while(n>=0){
+cout << n-- << ", ";
+
+}
+cout<<"\n\nFim da contagem regressiva";
+return 0;
 }
