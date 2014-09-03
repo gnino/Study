@@ -1,14 +1,14 @@
 #include <iostream>
+#include <stdio.h>
 using namespace std;
-int foo[5] = {10, 20, 30, 40, 50} //A funcao foo determina vetores
-int n, result=0;
-int main ()
-{
-for(i=0; i<5; n++)
-{
-result=foo[n]
-}
+
+int main (){
+    int foo[5] = {10, 20, 30, 40, 50}; //A funcao foo determina vetores
+    int n, result=0;
+for(n=0; n<5; n++){
+result=foo[n];
 cout<<result;
 return 0;
+}
 }
 
