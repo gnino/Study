@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+int ndec, nbin;
+
+int main()
+{
+ cout << "Digite um numero decimal: ";
+ cin >> ndec;     
+ if (ndec == 0)
+    cout << 0;
+ else   
+    while (ndec>0)
+    {
+     ndec=ndec/2;
+     nbin=ndec%2;
+     cout<<nbin;
+        }
+    cout<<"\n";
+    system("PAUSE");
+}
+
