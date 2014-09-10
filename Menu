@@ -1,28 +1,63 @@
 #include <iostream>
-#include <cstdlib>
-#include <stdlib.h>
-#include <stdio.h>
+
 using namespace std;
-int main(int argc, char*argu[])
+int main()
 {
-int Escolha;
+int Escolha1, Escolha2, Escolha3, Escolha4;
 while(true){
-cout<<"Menu:\n 1->Vermelho\n 2->Azul\n 3->Verde\n 4->Sair\n\nEscolha uma opção:";
-cin>>Escolha;
-switch (Escolha){
-case 1:
-cout<<"\nO usuário escolheu Vermelho\n\n";
+  cout<<"Menu:\n 1->Automovel\n 2->Computador\n 3->Smartphone\n 4->Sair\n\nEscolha uma opção:";
+  cin>>Escolha1;
+  switch (Escolha1){
+    case 1:
+    cout<< "Qual automovel?\n";
+    cout<< "1-Ford Ka modelo 2014\n";
+    cout<< "2-Fiat Uno modelo 2013\n";
+    cout<< "3-Volkswagem Gol modelo2012\n";
+    cout<< "4-Sair\n";
+  cin>>Escolha2;
+if (Escolha2==1)
+  cout<<"R$35.390,00\n\n";
+else if(Escolha2==2)
+  cout<<"R$37.590,00\n\n";
+else if(Escolha2==3)
+  cout<<"R$42.390,99\n\n";
+else if(Escolha2==4)
+  exit(0);
 break;
-case 2:
-cout<<"\nO usuário escolheu Azul\n\n";
+    case 2:
+    cout<<"Para qual proposito?\n";
+    cout<<"1-Academico\n";
+    cout<<"2-Trabalho\n";
+    cout<<"3-Gamer\n";
+    cout<<"4-Sair\n";
+  cin>>Escolha3;
+if (Escolha3==1)
+ cout<<"R$2.000,99";
+else if (Escolha3==2)
+ cout<<"R$1.599,99";
+else if (Escolha3==3)
+ cout<<"R$3.699,99";
+else if (Escolha3==4)
+ exit(0);
 break;
-case 3:
-cout<<"\nO usuário escolheu Verde\n\n";
+   case 3:
+    cout<<"Preferencia no sistema:\n";
+    cout<<"1-Android\n";
+    cout<<"2-iOS\n";
+    cout<<"3-Windows phone\n";
+    cout<<"4-Sair\n";
+  cin>>Escolha4;
+if(Escolha4==1)
+ cout<<"Aparelho:\n\n1-Galaxy S4 R$2.000,00\n\n2-Galaxy S5 R$2.500,99\n\n3-Galaxy SNote 3 R$2.650,99\n";
+else if (Escolha4==2)
+ cout<<"Aparelho:\n\n1-iPhone 4S R$2.000,00\n\n2-iPhone 5S R$2.500,99\n\n3-iPhone 5S Plus R$2.650,99\n";
+else if (Escolha4==3)
+ cout<<"Produto nao disponivel\n";
+else if (Escolha4==4)
+ exit(0);
+
 break;
-case 4:
-exit(0);
-break;
-}
 }
 return 0;
+}
 }
