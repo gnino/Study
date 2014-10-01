@@ -1,0 +1,16 @@
+#include <iostream>
+ using namespace std;
+ 
+int main()
+{
+    int *p1;
+    int *p2(nullptr);
+ 
+    if (p1 == nullptr)
+        cout << "p1 does not points to anything" ;
+ 
+    if (p2 == nullptr)
+        cout << "p2 does not points to anything";
+ 
+    return 0;
+}
