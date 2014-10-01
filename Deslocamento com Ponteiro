@@ -1,4 +1,10 @@
-Study
-=====
-
-UNP ENC4NA
+#include <iostream>
+ using namespace std;
+int main()
+{
+    char* name = "Elemar Jr";
+    int i = 0;
+ 
+    while (*name != '\0')
+        cout << *(name++); 
+}
